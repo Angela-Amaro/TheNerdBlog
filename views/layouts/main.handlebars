@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Museum</title>
+  <title>TheNerdBlog</title>
   <link rel="stylesheet" type="text/css" href="/css/jass.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
@@ -12,10 +12,24 @@
 <body>
   <header>
     <h1>Welcome to TheNerdBlog!</h1>
+    <div class="row-is-full content has-text-centered">
+            <p>
+            <a href="/">homepage</a>{{#if loggedIn}} | 
+            <a href="/dashboard/">dashboard</a> | 
+            <a href="/dashboard/create/">create new post</a>
+            {{else}}
+             | <a href="/login/">login</a>
+            {{/if}}
+            
+            </p>
+        </div>
   </header>
-  <body>
+  <main>
 
     {{{body}}}
-
+  </main>
+{{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
 </body>
 </html>

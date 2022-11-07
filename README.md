@@ -14,7 +14,7 @@ Here is proof you can edit, delete, post, and be logged out after a certain amou
 
 ## Languages
 
-Node.js/Javascript/sql
+Node.js/Javascript/sql/handlebars
 
 ## Author
 

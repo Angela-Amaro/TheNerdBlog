@@ -8,5 +8,6 @@
         "name": "NerdKing",
         "email": "nrdkng.com",
         "password": "password6789"
-      }
+      },
 ]
+//finished

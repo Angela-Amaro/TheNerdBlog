@@ -35,7 +35,7 @@ Comment.init(
           },
       },
 
-      desciption: {
+      content: {
         type: DataTypes.INTEGER,
         allowNull: false,
         primaryKey: true,
@@ -46,9 +46,10 @@ Comment.init(
       timestamps: false,
       freezeTableName: true,
       underscored: true,
-      modelName: 'user',
+      modelName: 'comment',
     }
   );
   
-  module.exports = User;
+  module.exports = Comment;
+  //review/edit
     

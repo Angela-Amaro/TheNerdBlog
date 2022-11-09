@@ -19,10 +19,11 @@ app.use(routes);
 const hbs = exphbs.create({ helpers });
 
 const sess = {
-  secret: 'Super secret secret',
-  cookie: {},
-  resave: false,
-  saveUninitialized: false,
+  secret: 'Victoria secret',
+  cookie: { expires: 10 * 60 * 1000},
+  resave: true,
+  rolling:true,
+  saveUninitialized: true,
   store: new SequelizeStore({
     db: sequelize
   })

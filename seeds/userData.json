@@ -1,11 +1,11 @@
 [
   {
-    "name": "TheBiggestNerd",
+    "username": "TheBiggestNerd",
     "email": "largenerd@gmail.com",
     "password": "password12345"
   },
   {
-    "name": "NerdKing",
+    "username": "NerdKing",
     "email": "nrdkng.com",
     "password": "password6789"
   }
